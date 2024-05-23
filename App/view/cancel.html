@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment Status</title>
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        background-color: #f4f4f4;
+        color: #333;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+      }
+
+      header {
+        background-color: #4caf50;
+        padding: 20px;
+        color: white;
+        font-size: 24px;
+      }
+
+      .container {
+        margin: 20px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .success-message,
+      .error-message,
+      .cancel-message {
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 20px;
+      }
+
+      .thank-you-note,
+      .instructions {
+        font-size: 18px;
+        margin-top: 20px;
+      }
+
+      .button {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        text-align: center;
+        text-decoration: none;
+        background-color: #4caf50;
+        color: white;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+      }
+
+      .button:hover {
+        background-color: #45a049;
+      }
+
+      .error-message {
+        color: #ff0000;
+      }
+
+      .cancel-message {
+        color: #ff0000;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Payment Cancellation Template -->
+    <header>Payment Canceled</header>
+
+    <div class="container">
+      <div class="cancel-message">Your payment has been canceled.</div>
+
+      <div class="instructions">If you have any questions or need assistance, please contact our support team.</div>
+
+      <a href="https://yourwebsite.com" class="button">Return to Homepage</a>
+    </div>
+  </body>
+</html>
